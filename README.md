@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.svg">
-  <img alt="Kārya" src="docs/assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="Docs/assets/banner-dark.svg">
+  <img alt="Kārya" src="Docs/assets/banner-light.svg" width="100%">
 </picture>
 
 <p align="center">
