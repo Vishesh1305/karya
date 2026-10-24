@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Karya">
+  <rect width="1280" height="340" fill="#191613"/>
+  <g stroke="#3A342D" stroke-width="1" opacity="0.7">
+    <rect x="24.5" y="24.5" width="1231" height="291" fill="none"/>
+    <line x1="24" y1="170" x2="1256" y2="170"/>
+    <line x1="216" y1="24" x2="216" y2="316"/>
+    <circle cx="120" cy="170" r="72" fill="none"/>
+  </g>
+  <g transform="translate(72,122) scale(4)">
+    <rect x="2" y="2" width="20" height="20" fill="none" stroke="#C2B7A7" stroke-width="1.5"/>
+    <path d="M 12 6 A 6 6 0 1 1 6.8 9" fill="none" stroke="#E37A4B" stroke-width="2" stroke-linecap="butt"/>
+    <rect x="10.5" y="10.5" width="3" height="3" fill="#C2B7A7"/>
+  </g>
+  <text x="264" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="500" fill="#F0E8DB" letter-spacing="-1">Kārya</text>
+  <text x="268" y="212" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" fill="#C2B7A7">A local-first job search platform that prepares truthful applications</text>
+  <text x="268" y="246" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" fill="#C2B7A7">from evidence you have verified yourself.</text>
+  <text x="268" y="292" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#EE8B5C" letter-spacing="1.4">PRE-PRODUCTION COMPLETE &#183; IMPLEMENTATION STARTING</text>
+</svg>

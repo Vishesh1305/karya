@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Android-CardTriage",
+    "title": "Android card triage",
+    "width": 390,
+    "height": 844,
+    "bindings_replaced": 0,
+    "handlers_removed": 0
+  },
+  {
+    "name": "Android-Home",
+    "title": "Android home",
+    "width": 390,
+    "height": 844,
+    "bindings_replaced": 0,
+    "handlers_removed": 0
+  },
+  {
+    "name": "Android-StopNotConfirmed-Obsidian",
+    "title": "Android stop not confirmed",
+    "width": 390,
+    "height": 844,
+    "bindings_replaced": 0,
+    "handlers_removed": 0
+  },
+  {
+    "name": "Android-StopWaiting",
+    "title": "Android stop status, waiting",
+    "width": 390,
+    "height": 844,
+    "bindings_replaced": 0,
+    "handlers_removed": 0
+  },
+  {
+    "name": "AppMark",
+    "title": "Kārya app mark",
+    "width": 1400,
+    "height": 620,
+    "bindings_replaced": 0,
+    "handlers_removed": 0
+  },
+  {
+    "name": "Desktop-JobDetail",
+    "title": "Job detail",
+    "width": 1680,
+    "height": 1000,
+    "bindings_replaced": 1,
+    "handlers_removed": 1
+  },
+  {
+    "name": "Desktop-Lock-Obsidian",
+    "title": "Kārya locked",
+    "width": 1440,
+    "height": 900,
+    "bindings_replaced": 0,
+    "handlers_removed": 0
+  },
+  {
+    "name": "Desktop-PackageReview",
+    "title": "Package review",
+    "width": 1440,
+    "height": 900,
+    "bindings_replaced": 1,
+    "handlers_removed": 1
+  },
+  {
+    "name": "Desktop-RelaySheet",
+    "title": "Copy-and-paste step",
+    "width": 1440,
+    "height": 960,
+    "bindings_replaced": 4,
+    "handlers_removed": 4
+  },
+  {
+    "name": "Desktop-Today",
+    "title": "Today",
+    "width": 1440,
+    "height": 900,
+    "bindings_replaced": 0,
+    "handlers_removed": 0
+  },
+  {
+    "name": "Main",
+    "title": "Kārya tokens, Limestone",
+    "width": 1440,
+    "height": 3391,
+    "bindings_replaced": 1,
+    "handlers_removed": 0
+  },
+  {
+    "name": "Tokens-Obsidian",
+    "title": "Kārya tokens, Obsidian",
+    "width": 1440,
+    "height": 3391,
+    "bindings_replaced": 1,
+    "handlers_removed": 0
+  }
+]

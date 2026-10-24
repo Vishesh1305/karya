@@ -1,0 +1,119 @@
+# Kārya
+#
+# Rule that outranks everything in this file: real candidate data never enters
+# this repository. Not in fixtures, not in tests, not in a phase report, not in
+# a screenshot. fixtures/ holds synthetic data only. If you are about to add an
+# exception here for "just one real file", stop.
+
+# ---- Secrets and signing material -------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.keystore
+*.jks
+*.mobileprovision
+*.provisionprofile
+secrets/
+**/local.properties
+
+# ---- Real data, backups, and local state ------------------------------------
+*.sqlcipher
+*.sqlite
+*.sqlite3
+*.db
+backup-*/
+private/
+real-data/
+evaluation-corpus/
+
+# ---- Rust --------------------------------------------------------------------
+# Cargo.lock IS committed: this is an application, and 07 requires pinned builds.
+target/
+**/*.rs.bk
+
+# ---- Python ------------------------------------------------------------------
+# uv.lock IS committed.
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.python-version
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Node and the web UI -----------------------------------------------------
+# The lockfile IS committed.
+node_modules/
+.vite/
+.turbo/
+*.tsbuildinfo
+
+# ---- Build output ------------------------------------------------------------
+dist/
+build/
+out/
+*.app/
+*.dmg
+*.msi
+*.AppImage
+*.deb
+
+# ---- Apple -------------------------------------------------------------------
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.swiftpm/
+
+# ---- Android -----------------------------------------------------------------
+.gradle/
+android/build/
+android/app/build/
+android/.cxx/
+captures/
+
+# ---- Design reference --------------------------------------------------------
+# fetch-fonts.sh downloads licensed OFL font binaries here. They are large and
+# reproducible from the script, so they are not tracked. The OFL license texts
+# the script also downloads ARE tracked.
+design/reference/fonts/*.ttf
+design/reference/fonts/*.otf
+design/reference/fonts/*.part
+!design/reference/fonts/OFL-*.txt
+#
+# Caution, not an ignore rule: running fetch-fonts.sh rewrites
+# design/reference/html/fonts.css with the fonts embedded as base64, turning a
+# small file into several megabytes. That file is tracked in its small online
+# form. Do not commit the embedded version.
+
+# ---- Logs, scratch, and editors ----------------------------------------------
+*.log
+logs/
+tmp/
+scratch/
+.idea/
+.vscode/
+*.swp
+
+# ---- macOS, Windows, Linux ---------------------------------------------------
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+---- Miscellaneous -------------------------------------------------------------
+/Docs/APPROVAL_RECORD_2026-10-01.md
+/Docs/AUDIT_RECORD_2026-09-29.md
+/Docs/Job_Automation_PLAN_Generator_Prompt.md

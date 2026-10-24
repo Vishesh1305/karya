@@ -1,0 +1,18 @@
+/*
+  Karya design reference: font loading for the standalone boards.
+
+  This is the ONLINE version shipped with the bundle. It loads the four
+  families from Google Fonts, so the boards render with the true fonts
+  only while the machine is online.
+
+  To make the boards fully offline, run ../fonts/fetch-fonts.sh once on a
+  machine with internet access. It downloads the OFL font files into
+  ../fonts/ and rewrites this file with @font-face rules that embed the
+  fonts as data URIs (embedding is used because Chrome and Firefox block
+  font files loaded from file:// paths outside the page's folder).
+
+  The product itself never loads fonts from a CDN (06 section 6.4.1,
+  00 NFR-06). This file is for the reference boards only.
+*/
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Instrument+Sans:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@500&text=%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF&display=swap");
